@@ -1,0 +1,9 @@
+{
+  "name": "GCE Smart Citizen Redressal",
+  "description": "GCE Smart Citizen Redressal System featuring AI-powered categorization and official grievance tracking for Government College of Engineering infrastructure.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

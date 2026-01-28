@@ -1,0 +1,11 @@
+export const APP_NAME = "GCE Smart Citizen Redressal";
+export const APP_TITLE_FULL = "GCE Smart Citizen Redressal System";
+export const HEADER_TITLE = "GCE Citizen Portal";
+export const GOV_ENTITY = "Grievance Centralized Engine (GCE)";
+export const WATERMARK_TEXT = "GCE";
+export const FOOTER_COPYRIGHT = "Copyright © 2026 Grievance Centralized Engine. All Rights Reserved.";
+export const POWERED_BY = "Powered by Grievance Centralized Engine";
+export const VERIFIED_BADGE = "Verified by GCE Node";
+export const WELCOME_MSG = "Welcome to GCE Grievance Redressal";
+export const KYC_TITLE = "GCE Citizen Identity Verification";
+export const KYC_INPUT_LABEL = "GCE Verified Records";

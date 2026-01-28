@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GCE Smart Citizen Redressal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navyBlue: '#00274D',     // Primary Gov Color
+              deepNavy: '#001830',     // Darker shade for footers/sidebars
+              softWhite: '#F8FAFC',    // Background
+              pureWhite: '#FFFFFF',    // Cards
+              saffron: '#FF9933',      // Accent
+              successGreen: '#16A34A',
+              alertRed: '#DC2626',
+              lightGrey: '#E2E8F0',    // Borders
+              secondaryText: '#64748B',// Subtitles
+              charcoal: '#334155',     // Primary Text replacement
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F1F5F9;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #CBD5E1;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00274D;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .gov-gradient {
+        background: linear-gradient(135deg, #00274D 0%, #001830 100%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "i18next": "https://esm.sh/i18next@^23.7.6",
+    "react-i18next": "https://esm.sh/react-i18next@^13.5.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="antialiased selection:bg-navyBlue selection:text-white bg-softWhite text-navyBlue">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
