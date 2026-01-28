@@ -1,5 +1,5 @@
 
-GCE -- Grievance Centralized Engine
+🏢GCE -- Grievance Centralized Engine
 Empowering Citizens, Smartening Cities.
 
 🌟 Overview
